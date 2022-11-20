@@ -1,0 +1,14 @@
+drwxr-xr-x    2 19219551   users            4096 Jun  8  2015 .
+drwxr-xr-x   15 19219551   users            8192 Jun  8  2015 ..
+-rwxr-xr-x    1 19219551   users             278 Jun  8  2015 categorie.js
+-rwxr-xr-x    1 19219551   users             220 Jun  8  2015 controllodatiacquisto.js
+-rwxr-xr-x    1 19219551   users            1890 Jun  8  2015 controllodatianagrafica.js
+-rwxr-xr-x    1 19219551   users             194 Jun  8  2015 controllodatiassistenza.js
+-rwxr-xr-x    1 19219551   users             194 Jun  8  2015 controllodaticategorie.js
+-rwxr-xr-x    1 19219551   users             885 Jun  8  2015 controllodatiinserimentoprodotto.js
+-rwxr-xr-x    1 19219551   users             192 Jun  8  2015 controllodatimagazzino.js
+-rwxr-xr-x    1 19219551   users             228 Jun  8  2015 controllodatirecupero.js
+-rwxr-xr-x    1 19219551   users             287 Jun  8  2015 controllodatirecupero.js.5527.backup
+-rwxr-xr-x    1 19219551   users             227 Jun  8  2015 controllodatispedizione.js
+-rwxr-xr-x    1 19219551   users             162 Jun  8  2015 magazzini.js
+-rwxr-xr-x    1 19219551   users            2312 Jun  8  2015 provincie.js

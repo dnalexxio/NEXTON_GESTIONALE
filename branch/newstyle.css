@@ -1,0 +1,182 @@
+body { 
+background-color: lightsteelblue;
+font-size: 15px; 
+font-family:Lucida Grande, Verdana;
+}
+#tot {
+color: blue;
+
+}
+
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:underline;}
+a:active {text-decoration:underline;}
+
+#av_die{
+font-size: 25px; 
+left: 100px;
+
+}
+#nascosto{
+/* visibility:hidden; */
+
+}
+h1 {font-color: blue}
+h2 {background-color: transparent}
+.evidenza {		color: red;			}
+.whitelink {
+color:white;
+	}
+}
+
+ul {
+
+font-size: 25px;
+
+
+}
+#stile {
+	background-color: grey;
+	border-style: solid;
+	color: black;
+	font-size: 15px;
+	width: 300px;
+}
+#client {
+	background-color: grey;
+	border-style: solid;
+	color: black;
+	font-size: 15px;
+	width: 400px;
+	position: absolute;
+	left: 200px;
+	top: 50px;
+	z-index: 1;
+	}
+.spid{
+float: left;
+
+}
+.spid2{
+float: right;
+margin: auto auto auto auto;
+}
+#dacon{
+width: 20%;
+}
+
+#stampa {
+position: absolute;
+left : 600px;
+top: 30px;
+
+}
+
+	#menu_pi{
+	font-size: 18px;
+	width: 300px;
+	position: absolute;
+	float:right;
+	right:200px;
+	top: 10px;
+	}
+	
+	#docpane{
+	width: 300px;
+	position: absolute;
+	float:right;
+	right:40px;
+	top: 80px;
+	
+	}
+
+	#superprinc_no{
+	display:block;
+	position: absolute;
+	top: 500px;
+	left: 100px;
+	right: 100px;
+	bottom: 200px;
+	background-color: #002233;
+	}
+
+table
+{ 
+page-break-after: never;
+page-break-before: never;
+
+}
+
+	table {
+			font-family:Lucida Grande, Verdana;
+			border:1px solid #ccc;
+			border-collapse:collapse;
+			cursor:default;
+		}
+		table td,
+		table th{
+			padding:2px;
+			font-weight:normal;
+		}
+		table thead td, table thead th {
+			
+			background-repeat:no-repeat;
+			background-position:top right;
+		}
+		
+		
+			
+		table tbody tr td{
+			border-bottom:1px solid #ddd;
+		}
+		table tbody tr.alt td{
+			background: #e3edfa;
+		}
+		table tbody tr.selected td{
+			background: yellow;
+		}
+		table tbody tr:hover td{
+			background: #a6c2e7;
+		}
+		table.tbody tr.selected:hover td{
+			background:#ff9;
+		}
+
+#mine td:hover{
+			
+background: yellow;
+
+		}
+
+
+
+@media print {
+   .stampa {
+display: none;
+}
+
+.minimal {
+font-size : 8.5pt;
+}
+table
+{ 
+page-break-after: never;
+page-break-before: never;
+page-break-inside: auto;
+}
+td { font-size: 8.5pt;}
+.stampatd {width: 100%;}
+#marginale {
+margin: 0.5;
+}
+input{
+width:75px;
+background-color: transparent;
+background:none;
+border: none;
+text-align: right;
+}
+
+}
+

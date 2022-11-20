@@ -1,0 +1,12 @@
+drwxr-xr-x    4 19219551   users            4096 Jun  8  2015 .
+drwxr-xr-x   34 19219551   users            8192 Jun  8  2015 ..
+-rwxr-xr-x    1 19219551   users            4566 Jun  8  2015 Axis.js
+-rwxr-xr-x    1 19219551   users            2384 Jun  8  2015 Chart.js
+-rwxr-xr-x    1 19219551   users            2825 Jun  8  2015 Plot.js
+-rwxr-xr-x    1 19219551   users            5733 Jun  8  2015 PlotArea.js
+-rwxr-xr-x    1 19219551   users             611 Jun  8  2015 Plotters.js
+-rwxr-xr-x    1 19219551   users            2460 Jun  8  2015 README.txt
+-rwxr-xr-x    1 19219551   users            5578 Jun  8  2015 Series.js
+-rwxr-xr-x    1 19219551   users             299 Jun  8  2015 __package__.js
+drwxr-xr-x    2 19219551   users            4096 Jun  8  2015 svg
+drwxr-xr-x    2 19219551   users            4096 Jun  8  2015 vml

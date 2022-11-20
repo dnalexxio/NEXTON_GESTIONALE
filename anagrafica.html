@@ -1,0 +1,83 @@
+<h1>Anagrafica</h1>
+<br><br>
+I dati contrassegnati da * sono modificabili
+<br><br>
+<div id="wizard2" dojoType="WizardContainer" hideDisabledButtons="true" style="width: 100%; height: 200px;" nextButtonLabel="Salva">
+        <div dojoType="WizardPane">
+            <font face="Tahoma" color="black" size="3"><b>I tuoi dati</b></font>
+		<br>
+		<p>Riepilogo dei dati personali</p><br>
+		<div id="Special_DIV" spry:region="dsAnagrafica">
+			<table id="tab_anagrafica">
+			<tr>
+				<td class="evidenza" width="200px">ID</td>
+				<td spry:repeat="dsAnagrafica">{id}</td>
+			</tr>
+			<tr>
+				<td class="evidenza" width="200px">Nome</td>
+				<td spry:repeat="dsAnagrafica">{nome}</td>
+			</tr>
+			<tr>
+				<td class="evidenza" width="200px">Cognome</td>
+				<td spry:repeat="dsAnagrafica">{cognome}</td>
+			</tr>
+			<tr>
+				<td class="evidenza" width="200px">Data di nascita</td>
+				<td spry:repeat="dsAnagrafica">{datanascita}</td>
+			</tr>
+			<tr>
+				<td class="evidenza" width="200px">Luogo di nascita</td>
+				<td spry:repeat="dsAnagrafica">{luogonascita}</td>
+			</tr>
+				<tr>
+				<td class="evidenza" width="200px">Cellulare</td>
+				<td spry:repeat="dsAnagrafica">{cellulare}</td>
+			</tr>
+			<tr>
+				<td class="evidenza" width="200px">Codice Fiscale</td>
+				<td spry:repeat="dsAnagrafica">{codicefiscale}</td>
+			</tr>
+			<tr>
+				<td class="evidenza" width="200px">Indirizzo di residenza</td>
+				<td spry:repeat="dsAnagrafica">{indirizzo}</td>
+			</tr>
+			<tr>
+				<td class="evidenza" width="200px">Citta'</td>
+				<td spry:repeat="dsAnagrafica">{citta}</td>
+			</tr>
+			<tr>
+				<td class="evidenza" width="200px">Provincia</td>
+				<td spry:repeat="dsAnagrafica">{provincia}</td>
+			</tr>
+			<tr>
+				<td class="evidenza" width="200px">Stato</td>
+				<td spry:repeat="dsAnagrafica">{stato}</td>
+			</tr>
+			<tr>
+				<td class="evidenza" width="200px">Domanda Segrets</td>
+				<td spry:repeat="dsAnagrafica">{domandasegreta}</td>
+			</tr>
+			<tr>
+				<td class="evidenza" width="200px">Risposta Segreta</td>
+				<td spry:repeat="dsAnagrafica">{rispostasegreta}</td>
+			</tr>
+		</table>
+	</div>
+		<table>
+			<tr>
+				<td class="evidenza" width="200px">Telefono*</td>
+				<td width="70%"><div name="telefonocliente" spry:region="dsAnagrafica" dojoType="inlineEditBox" id="nome1">{telefono}</div></td>
+			</tr>
+			<tr>
+				<td class="evidenza" width="200px">Cellulare*</td>
+				<td width="70%"><div name="cellularecliente" spry:region="dsAnagrafica" dojoType="inlineEditBox" id="nome2">{cellulare}</div></td>
+			</tr>
+			<tr>
+				<td class="evidenza" width="200px">Indirizzo e-mail*</td>
+				<td width="70%"><div name="emailcliente" spry:region="dsAnagrafica" dojoType="inlineEditBox" id="nome3">{email}</div></td>
+			</tr>
+		</table>
+        </div>		
+</div>			
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        </div>

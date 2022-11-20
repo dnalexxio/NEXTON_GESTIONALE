@@ -1,0 +1,126 @@
+﻿html,body{ 
+
+
+}
+
+.intestazione{
+ position: relative;
+   float: left;
+   clear: both;
+   background-color: #1e5799;
+   width: 1200px;
+   color: white;
+   padding-top:10px;
+   margin-top: 10px;
+   padding-bottom:10px;
+   font-size: xx-large;
+}
+
+.menu {  
+    margin-top: 10px;
+   position: relative;
+    float: left;
+    clear: both;
+     padding-top:25px;
+    padding-right:0px;
+    padding-left:0px;
+}
+
+.docpane {
+     margin-top: 10px;
+  position: relative;
+    float: left;
+    
+    width: 30%;
+    padding-top:25px;
+    padding-right:50px;
+    padding-left:50px;
+      background-color: #1e5799;
+      color: white;
+}
+.loghi {
+     margin-top: 2px;
+  position: relative;
+    float: left;
+    height: 500px;
+    width: 7em;
+    padding-top:2px;
+    padding-right:10px;
+    padding-left:50px;
+}
+.loghi_dx {
+    margin-top: 2px;
+  position: relative;
+    float: left;
+    height: 500px;
+     width: 8em;
+    padding-top:2px;
+    padding-right:10px;
+    padding-left:50px;
+}
+.footer {
+   position: relative;
+    float: left;
+    clear: both;
+   background-color: #1e5799;
+   width: 1200px;
+   color: white;
+   padding-top:10px;
+   margin-top: 10px;
+   padding-bottom:10px;
+   
+}
+
+.loghi_dx img {
+width: 160px;
+height: 50px;
+
+}
+
+div.menu ul{
+  margin: 0;padding: 0; list-style-type: none;
+  
+
+}
+div.menu li{
+    margin: 0;
+    padding: 0 ;
+  border-bottom: 5px solid #1e5799;
+  -moz-box-shadow: 0 1px 0 white;
+  -webkit-box-shadow: 0 1px 0 white;
+  box-shadow: 0 1px 0 white;
+  padding: 10px;
+}
+div.menu a{color:#369;font: normal bold 1.2em/1.4em arial,sans-serif;text-decoration: none}
+div.menu a:hover{color: #033;text-decoration: underline; display: block;}
+div.menu a#activelink{color: #033;text-decoration: none}
+div.menu p{font-size: 90%}
+
+div.menu li.active {
+  display: block;
+  position: relative;
+  color: #fff;
+  background-color: #1e5799;
+  
+}
+div.menu a :hover {
+  display: block;
+  position: relative;
+  color: #fff;
+  background-color: #1e5799;
+  
+}
+
+.inside3 a{
+    color:white;
+
+}
+
+#div_menu a {
+   color:#fff;font: normal bold 1.2em/1.4em arial,sans-serif;text-decoration: none
+}
+#generic_menu {
+    position: relative;
+    float: left;
+    clear: both;
+}

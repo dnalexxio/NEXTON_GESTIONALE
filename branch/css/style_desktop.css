@@ -1,0 +1,96 @@
+body
+{
+background-image:url(images/noise.png);
+	background-repeat:repeat;
+	font-size:12px;
+	line-height:1.9em;
+	color:#000;
+	font-family:'Droid Serif',Georgia, "Times New Roman", Times, serif;
+}
+#titolo {
+font-family:  'Hoefler Text', Georgia, 'Times New Roman', serif;
+	font-weight: normal;
+        font-size: 1.75em;
+	letter-spacing: .2em;
+	line-height: 1.1em;
+	margin:0px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #377A7F;
+	text-shadow: 2px 2px 2px #83ACAF;
+	background-color: #fff;
+}
+#loginbox{
+position:absolute;
+border: Solid 1px #CCCCCC;
+float: right;
+top:30px;
+right:0px;
+padding:0.5em 0.7em 0.7em 0.8em;
+}
+.descrizione{
+font-family: "Helvetica Neue", "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
+font-size: 14px;
+color: #666;
+float:left;
+width: 30em;
+
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+
+}
+.final{
+font-size: 14px;
+position:absolute;
+bottom:0;
+right:0;
+z-index:10;
+
+}
+
+
+#aziende{
+position: absolute;
+top: 25em;
+left:340px;
+width: 100px;
+
+}
+#az_descrip{
+position: absolute;
+top: 25em;
+left:780px;
+text-transform: uppercase;
+width: 400px;
+
+}
+
+input.submit {
+  height: 50px;
+  width: 50px;
+}
+#div_user{
+font-size: 14px;
+position:absolute;
+right:0;
+z-index:10;
+display: block;
+}
+#generic_menu{
+float:left;
+background-color:#eee;
+width: 300px;
+border:1px solid #999;
+margin:0.3em 0;
+text-transform: uppercase;
+padding:0.5em 0.5em 0.5em 0.5em;
+}
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:underline;}
+a:active {text-decoration:underline;}
+#link1{
+color:blue;
+right: 0px;
+}

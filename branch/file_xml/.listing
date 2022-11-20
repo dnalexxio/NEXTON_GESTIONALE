@@ -1,0 +1,15 @@
+drwxr-xr-x    2 19219551   users            4096 Jun  8  2015 .
+drwxr-xr-x   15 19219551   users            8192 Jun  8  2015 ..
+-rwxr-xr-x    1 19219551   users            1500 Jun  8  2015 anagrafica.php
+-rwxr-xr-x    1 19219551   users            2682 Jun  8  2015 articoli.php
+-rwxr-xr-x    1 19219551   users            1609 Jun  8  2015 clienti.php
+-rwxr-xr-x    1 19219551   users            1144 Jun  8  2015 invoice.php
+-rwxr-xr-x    1 19219551   users            1060 Jun  8  2015 newbill.php
+-rwxr-xr-x    1 19219551   users            6665 Jun  8  2015 newrighe.php
+-rwxr-xr-x    1 19219551   users           12861 Jun  8  2015 newstats.php
+-rwxr-xr-x    1 19219551   users            5124 Jun  8  2015 newupdateord.php
+-rwxr-xr-x    1 19219551   users            3717 Jun  8  2015 seek.php
+-rwxr-xr-x    1 19219551   users            3948 Jun  8  2015 superseek.php
+-rwxr-xr-x    1 19219551   users            2166 Jun  8  2015 tuoiacquisti.php
+-rwxr-xr-x    1 19219551   users             555 Jun  8  2015 users.php
+-rwxr-xr-x    1 19219551   users            2028 Jun  8  2015 visprod.php

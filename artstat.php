@@ -1,0 +1,99 @@
+<?php
+include ("newconf.php");
+if (!isset($_SESSION['logged'])) 
+{
+header('Location: index.php');
+die("restarting.."); 
+}
+?>
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+	
+		<title>statistiche clienti</title>
+		
+	<!-Parte di Spry->
+		<link href="./newstyle.css" rel="stylesheet" type="text/css" />
+		<script language="JavaScript" type="text/javascript" src="./includes/xpath.js"></script>
+		<script language="JavaScript" type="text/javascript" src="./includes/SpryData.js"></script>
+				<!-Parte di Dojo->
+		<script type="text/javascript" src="dojo/dojo.js"></script>
+		<script language="JavaScript" type="text/javascript">
+						dojo.require("dojo.widget.*");
+			dojo.require("dojo.widget.InlineEditBox");
+			dojo.require("dojo.event.*");
+			dojo.require("dojo.io.*");
+			dojo.hostenv.writeIncludes();
+		</script>
+
+		<script language="JavaScript" type="text/javascript" src="functions.js"></script>
+<script language="JavaScript" type="text/javascript">
+var dsArt = new Spry.Data.XMLDataSet("file_xml/articoli.php", "articolo/name");
+var dsTo = new Spry.Data.XMLDataSet("file_xml/articoli.php", "articolo/ripe");
+function drill(code,cat,cli,year)	{ 
+	
+	document.body.style.cursor='wait';
+ dsArt.setURL('file_xml/articoli.php?art='+code+'&cat='+cat+'&codcl='+cli+'&y='+year);
+dsTo.setURL('file_xml/articoli.php?art='+code+'&cat='+cat+'&codcl='+cli+'&y='+year);
+	dsArt.loadData();
+	dsTo.loadData();
+document.body.style.cursor='auto';
+}
+</script>
+
+	
+
+	</head>
+<body>
+
+
+<a href="index.php" class="stampa" >HOME PAGE</a>
+
+<form onsubmit="return false;">
+  INSERISCI CODICE ARTICOLO: 
+<input type="text" name="art"> <BR> AZIENDA:<input type="text" name="cat"> <BR>codice cliente:<input type="text" name="codcl"><BR>
+<select  name="year" id="year">
+<?php 
+$d=date("Y");
+while($d>2006) { echo "<option>$d</option>"; $d--; }
+?>
+<option>totale</option>
+</select>
+<input type="button" value="ricerca" onclick="drill(art.value,cat.value,codcl.value,year.value)">
+
+</form>
+<br><br><br>
+<div spry:region="dsArt">
+<table border="1"><caption>prodotto: {nomeprod}</caption>
+        <tr>
+<th scope="col">ID utente</th>
+	 <th scope="col">nome</th>        
+        <th scope="col">pezzi venduti</th>
+                <th scope="col">prezzo </th>
+                <th scope="col">misura</th>
+	   <th scope="col">prezzo mod?</th>
+	   <th scope="col">Sconto</th>
+	   <th scope="col">Sconto2</th>
+	   <th scope="col">Sconto3</th>
+         <th scope="col">DATA</th>      
+
+        </TR>
+        <tr spry:repeat="dsArt">
+		 <td>{@id}</td>
+		  <td>{@nome}</td>
+                <td>{qta}</td>
+                <td>{price}</td>
+                 <td>{misura}</td>
+			 <td>{modif}</td>
+			  <td>{sconto}</td>
+			  <td>{sconto2}</td>
+			  <td>{sconto3}</td>
+                <td>{data}</td>
+        </tr>
+
+</table>
+</div>
+<div spry:region="dsTo"><B>           TOTALE:{totaleqta}</B></div>
+</body>

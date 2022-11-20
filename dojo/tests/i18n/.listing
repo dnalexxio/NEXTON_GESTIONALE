@@ -1,0 +1,7 @@
+drwxr-xr-x    3 19219551   users            4096 Jun  8  2015 .
+drwxr-xr-x   35 19219551   users            8192 Jun  8  2015 ..
+drwxr-xr-x   27 19219551   users            4096 Jun  8  2015 nls
+-rwxr-xr-x    1 19219551   users            1693 May  9  2020 test_currency.html
+-rwxr-xr-x    1 19219551   users            5764 May  9  2020 test_number.html
+-rwxr-xr-x    1 19219551   users            3146 May  9  2020 test_strings.html
+-rwxr-xr-x    1 19219551   users            1878 May  9  2020 test_strings2.html
